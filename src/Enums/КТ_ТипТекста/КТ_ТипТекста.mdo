@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="48c7b40c-50f1-4c13-93c4-b7590ecd9dae">
+  <producedTypes>
+    <refType typeId="ce32415c-a9ca-43d1-8941-a5560313064f" valueTypeId="2dee44fc-0157-45ba-89c3-10cf3c13cb85"/>
+    <listType typeId="fcc63784-e84d-46ef-8831-dc01278a02c4" valueTypeId="90cdaeb7-15c4-4bd2-8ceb-fda81fea4f98"/>
+    <managerType typeId="46df2286-74eb-4497-8b99-29cb0fd30046" valueTypeId="a86d79f4-18d1-4267-9d99-45f0130586b5"/>
+  </producedTypes>
+  <name>КТ_ТипТекста</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип текста</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="3234ee65-8d31-491f-95b7-7a13bd39414c">
+    <name>ОбычныйТекст</name>
+  </enumValues>
+  <enumValues uuid="b959f542-86b4-42e3-9c05-e7acbb478035">
+    <name>Markdown</name>
+  </enumValues>
+  <enumValues uuid="3ec93dd7-12d4-48f4-a94c-f20a3b8e3308">
+    <name>HTML</name>
+  </enumValues>
+  <enumValues uuid="f31aed79-c1e4-4a24-b20c-e7aa7537ea8a">
+    <name>JSON</name>
+  </enumValues>
+</mdclass:Enum>

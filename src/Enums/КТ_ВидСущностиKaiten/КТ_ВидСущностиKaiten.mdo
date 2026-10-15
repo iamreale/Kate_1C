@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cc8c1fa1-039a-48f0-ad46-5d37b58d8cb9">
+  <producedTypes>
+    <refType typeId="ff10fc27-4af5-4825-bb79-b0dfdc8dfb2b" valueTypeId="045651dd-a04f-42c5-a419-df4c95250742"/>
+    <listType typeId="a1baa164-7ca3-461c-bdf9-ec9badfca2de" valueTypeId="b2dcf591-683f-4291-9869-cc2d02ff7a01"/>
+    <managerType typeId="da6ea8e3-b127-48d7-9d97-d51678cf626a" valueTypeId="9c759482-72a3-44d8-bfd8-57f1960d0aed"/>
+  </producedTypes>
+  <name>КТ_ВидСущностиKaiten</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид сущности Kaiten</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c3e77bcb-b219-48b8-80f3-adaabbd497d3">
+    <name>Компания</name>
+  </enumValues>
+  <enumValues uuid="52afa507-06bb-4b90-8655-69e717d4e01f">
+    <name>Пользователь</name>
+  </enumValues>
+  <enumValues uuid="b52a01c6-5919-4b9c-b3dd-5cd0d6b4eb88">
+    <name>Пространство</name>
+  </enumValues>
+  <enumValues uuid="34b85026-7329-4d6d-afe5-e7a273321a9e">
+    <name>Доска</name>
+  </enumValues>
+  <enumValues uuid="cb542d00-a0b1-4042-b36e-58eae315f6f4">
+    <name>Колонка</name>
+  </enumValues>
+  <enumValues uuid="1b2d8b56-3d88-42b4-a5ca-70629c69371d">
+    <name>Дорожка</name>
+  </enumValues>
+  <enumValues uuid="895ad1af-2ff1-465d-9c53-ba487cda10de">
+    <name>ТипКарточки</name>
+  </enumValues>
+  <enumValues uuid="fb4e77df-c6c7-4a65-a52c-43ca230a1af1">
+    <name>Карточка</name>
+  </enumValues>
+  <enumValues uuid="ff7b783e-993e-4a18-b79d-aaa1d6beae49">
+    <name>Комментарий</name>
+  </enumValues>
+  <enumValues uuid="0d655cfe-fd9f-40e5-8c6b-7a67ae79687b">
+    <name>ЧекЛист</name>
+  </enumValues>
+  <enumValues uuid="bba2cf0d-63e5-4942-95ca-f1d47f116aeb">
+    <name>ПунктЧекЛиста</name>
+  </enumValues>
+  <enumValues uuid="afebb0a9-3d95-4ea0-97e3-fa62002bfc5d">
+    <name>Тег</name>
+  </enumValues>
+  <enumValues uuid="d5468e9e-09bd-43a9-a0db-625d67238284">
+    <name>ПользовательскоеПоле</name>
+  </enumValues>
+  <enumValues uuid="41cf3e69-c650-4331-99a4-8ef0b37e23a0">
+    <name>ЗначениеСписка</name>
+  </enumValues>
+  <enumValues uuid="e20b05ab-917c-474d-b964-2d71c337d04f">
+    <name>ЗначениеКаталога</name>
+  </enumValues>
+  <enumValues uuid="4d8995d5-3550-4c47-b044-80dcc7e04885">
+    <name>Файл</name>
+  </enumValues>
+  <enumValues uuid="7b9ac17b-f4cf-471e-ade0-0d4e4aef5f66">
+    <name>Трудозатрата</name>
+  </enumValues>
+  <enumValues uuid="a527b2ae-4a10-4b2c-b9b3-a6a737065134">
+    <name>Перемещение</name>
+  </enumValues>
+  <enumValues uuid="49521dc6-5756-40c8-b720-af5402bc2ffa">
+    <name>ДокументKaiten</name>
+  </enumValues>
+  <enumValues uuid="f1ad7224-73b8-40a4-ab54-81a788a7c897">
+    <name>Прочее</name>
+  </enumValues>
+  <enumValues uuid="1ccc5808-e8d3-464e-a512-c379389d9b57">
+    <name>РольТрудозатрат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Роль трудозатрат</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

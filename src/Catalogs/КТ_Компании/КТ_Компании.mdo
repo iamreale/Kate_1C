@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5d277d0d-9bce-473a-ba98-a7c69d77fdd1">
+  <producedTypes>
+    <objectType typeId="259323bb-d0f3-43eb-9b8a-77d3ca8e8155" valueTypeId="a66311cc-2afe-4023-9f8e-6b62a1c23dab"/>
+    <refType typeId="debc7764-3d69-4d0b-acb1-4db65b9c7530" valueTypeId="a73c70f2-dd29-4035-b7a1-255bb60a5bc4"/>
+    <selectionType typeId="4b3cedab-936c-4d42-a6aa-8e83725b0d55" valueTypeId="1fad2575-6616-4a25-bc7c-099101eec8e1"/>
+    <listType typeId="931e7be5-e932-44ef-aba2-f8fcf2671a29" valueTypeId="7e2da44c-23d7-478f-87da-cd5364382be8"/>
+    <managerType typeId="8698677b-9239-4568-a2a8-73a2c2df63c5" valueTypeId="9832ac78-d90f-4371-8f7b-e5180c22f874"/>
+  </producedTypes>
+  <name>КТ_Компании</name>
+  <synonym>
+    <key>ru</key>
+    <value>Компании</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.КТ_Компании.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.КТ_Компании.Attribute.Домен</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Компания</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Компании</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>20</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.КТ_Компании.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="66cd0930-d7b7-4596-8871-d8669764e980">
+    <name>ИдентификаторKaiten</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор Kaiten</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>19</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3622c4fa-e757-43f7-a7ec-ac4b3e6a8dc2">
+    <name>UIDKaiten</name>
+    <synonym>
+      <key>ru</key>
+      <value>UID Kaiten</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="09ab2ca1-4dc4-4e5f-ad16-eef346aceced">
+    <name>Домен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Домен</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>IndexWithAdditionalOrder</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8a0a188a-be61-45cb-a0c4-443441469631">
+    <name>ДатаСозданияKaiten</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата создания Kaiten</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="56839b81-a6fd-4bda-9809-33db5b2d37de">
+    <name>ДатаИзмененияKaiten</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата изменения Kaiten</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2ab9dd41-f333-4072-b7bc-5548e7278a63">
+    <name>ДатаПоследнейЗагрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата последней загрузки</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="62fd2bd3-907a-48ac-81d5-6ffdbe5c9f28">
+    <name>ХешПоследнегоJSON</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хеш последнего JSON</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>64</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="0b250d07-4e19-4660-b4cc-4ab937efc246">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

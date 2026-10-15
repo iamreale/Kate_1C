@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0db0cdb4-ea45-4c14-9708-74090d61133d">
+  <producedTypes>
+    <selectionType typeId="23aa7814-b9c2-4a87-a930-3dbe1c781e80" valueTypeId="05234d6c-438b-4608-b4be-461f8c75a946"/>
+    <listType typeId="0d8f049d-1ccd-4af8-b740-3fe353f454eb" valueTypeId="f6ad2c8f-db88-4036-a8bf-edd0ac86e8f4"/>
+    <managerType typeId="eea5da01-3bc8-443f-9feb-16b373c479b9" valueTypeId="91984256-18b5-40db-84e6-4073eeca7fe7"/>
+    <recordSetType typeId="1a503526-8eea-40af-8b80-61b20bb1bb23" valueTypeId="884948dd-2f08-4068-aabe-738c00dad95d"/>
+    <recordKeyType typeId="5b1ce5f1-8d95-4115-b2c2-ca06307a3746" valueTypeId="4904a241-7dfe-40b4-afab-26133d2a51c4"/>
+    <recordType typeId="9bed6f8d-b34b-4c99-93e7-28712e2ead32" valueTypeId="43e557bf-2b93-4f3b-8929-da13d02a16b0"/>
+    <recordManagerType typeId="683f8bc1-825a-4c03-944f-aecdd9f0a53a" valueTypeId="a3f5d391-8c42-4cb5-9187-c567e45d93d0"/>
+  </producedTypes>
+  <name>КТ_ИсторияПеремещенийКарточек</name>
+  <synonym>
+    <key>ru</key>
+    <value>История перемещений карточек</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Перемещение карточки</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>История перемещений карточек</value>
+  </listPresentation>
+  <resources uuid="ea3ed05f-db90-404f-8ffe-a187ba576049">
+    <name>Автор</name>
+    <type>
+      <types>CatalogRef.КТ_Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="04dc94c2-88b5-471e-8eba-d0980157ea34">
+    <name>МоментСобытия</name>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="7bba4a61-d152-46fc-a14e-b97fdc63a121">
+    <name>СыройJSON</name>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="eccadbd5-a62b-4ab2-ac2c-3c171dc8af01">
+    <name>Доска</name>
+    <type>
+      <types>CatalogRef.КТ_Доски</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="bc599781-e3b9-4acd-afc1-35f235e3655c">
+    <name>Колонка</name>
+    <type>
+      <types>CatalogRef.КТ_Колонки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="68898b69-333b-415d-8eb6-03f6d11fa4af">
+    <name>Подколонка</name>
+    <type>
+      <types>CatalogRef.КТ_Колонки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="e3e9c77d-0def-4712-9204-30eaf6a302df">
+    <name>Дорожка</name>
+    <type>
+      <types>CatalogRef.КТ_Дорожки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="8ef9d373-4bb7-4716-a820-c3796893dd37">
+    <name>Карточка</name>
+    <type>
+      <types>CatalogRef.КТ_Карточки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="97fc6be6-3355-4342-af75-0791ad1b9c00">
+    <name>ИдентификаторСобытияKaiten</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>19</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

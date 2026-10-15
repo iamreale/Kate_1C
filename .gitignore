@@ -1,0 +1,14 @@
+# Служебные файлы Eclipse / EDT
+.metadata/
+bin/
+tmp/
+*.log
+
+# Локальные настройки пользователя (по желанию, если не хотите делиться личными пресетами)
+# .settings/org.eclipse.core.resources.prefs
+
+# Временные выгрузки и дампы
+*.cf
+*.dt
+*.epf
+*.erf

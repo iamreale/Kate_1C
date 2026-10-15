@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="52fe3df2-fc9b-42c5-87d4-1efaa88660f6">
+  <producedTypes>
+    <selectionType typeId="391ba0ff-eb1e-434d-b7b6-f3e88113ee37" valueTypeId="0083a0f0-63b0-4be8-a47e-8ff957ae61ee"/>
+    <listType typeId="68dd650e-d722-419e-8de6-7a05f4559cf3" valueTypeId="6484c269-745e-43aa-81f7-31d356958436"/>
+    <managerType typeId="60c5dd7a-248a-45d4-88bd-990afc4b66a5" valueTypeId="195662e3-fc58-4e45-9cbe-6c5f494d9657"/>
+    <recordSetType typeId="d56d7e95-3c47-48f9-ada9-bca96ebb5f5c" valueTypeId="02f93c4b-d72b-4fcf-b218-cbd04ff4db0d"/>
+    <recordKeyType typeId="430ee71c-561e-4da5-880d-b58b1c759e19" valueTypeId="cd52f68c-d048-4bfd-a7af-43646590702d"/>
+    <recordType typeId="ae74b0ae-c28c-4620-86b5-f11297037719" valueTypeId="d29a81c8-43b1-4232-8b70-0f26401b1d27"/>
+    <recordManagerType typeId="5c007964-2ec5-4399-9f55-4538a141db78" valueTypeId="2efd3362-1344-42bf-98fb-150cf484c7e1"/>
+  </producedTypes>
+  <name>КТ_ТрудозатратыКарточек</name>
+  <synonym>
+    <key>ru</key>
+    <value>Трудозатраты карточек</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Трудозатрата карточки</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Трудозатраты карточек</value>
+  </listPresentation>
+  <resources uuid="3ad43859-11fe-4fe3-b392-f2485466e848">
+    <name>Пользователь</name>
+    <type>
+      <types>CatalogRef.КТ_Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="6154ebad-b6b8-417d-bf5d-65731e7a677a">
+    <name>Роль</name>
+    <type>
+      <types>CatalogRef.КТ_РолиТрудозатрат</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="4814ccd8-03f2-4cd7-892c-dfa7bff0fb73">
+    <name>ДатаНачала</name>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="0b30d45e-9868-486c-8994-bf00b7380d4a">
+    <name>ДатаОкончания</name>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="eded4642-c508-4e31-82fd-1c3289e07563">
+    <name>ДлительностьМинут</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="c9797e99-ea45-4099-a0fc-3e170e197884">
+    <name>Комментарий</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="6de0da49-4e91-4127-80d6-fd5ec16ef69b">
+    <name>СыройJSON</name>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="a3452b0e-b89f-4ed8-9114-f9024463791c">
+    <name>Карточка</name>
+    <type>
+      <types>CatalogRef.КТ_Карточки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="c1f4f972-2b40-44b3-9167-2367aa310430">
+    <name>ИдентификаторKaiten</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>19</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

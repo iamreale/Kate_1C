@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="98d1b79d-0e7f-4fd3-bd78-383e1773a3e5">
+  <producedTypes>
+    <objectType typeId="36aa9df2-89b9-4613-a8c1-2c5aac0d18d4" valueTypeId="6c1ca074-228a-46c0-8288-e2748f5fc700"/>
+    <managerType typeId="6da3f782-7ec3-4e40-be6e-8c0f4bd38c4e" valueTypeId="df6dc89c-cf7d-4bd3-9da6-45649a08ab9b"/>
+  </producedTypes>
+  <name>КТ_СжатиеХранилищ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сжатие хранилищ значений</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.КТ_СжатиеХранилищ.Form.Форма</defaultForm>
+  <forms uuid="f8786138-221d-4100-9f5a-8483438d84f6">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сжатие хранилищ значений</value>
+    </synonym>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4f80a904-085b-41be-8bd4-b3ee999aa10b">
+  <producedTypes>
+    <refType typeId="767e3630-ba39-4789-8833-db9eb69134a0" valueTypeId="400674f2-ae56-47c9-aa37-4af141492a94"/>
+    <listType typeId="2a88b1c2-cf18-4cce-a8e0-9692b8c17a5d" valueTypeId="9854edd3-3d89-474b-b530-7f247817e00c"/>
+    <managerType typeId="637a754a-3e22-43bf-a43f-a64d572a4e76" valueTypeId="b1002411-4193-486b-9139-bdc31b2f5a3f"/>
+  </producedTypes>
+  <name>КТ_ТипЗначенияПоля</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип значения поля</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="2278a3cb-2434-4dc9-a752-e5ee68761a7a">
+    <name>Строка</name>
+  </enumValues>
+  <enumValues uuid="b8258f0b-2e2a-425d-a6a1-1d45867562f0">
+    <name>МногострочнаяСтрока</name>
+  </enumValues>
+  <enumValues uuid="24201848-2ced-45b5-bff2-e1787679d21e">
+    <name>Число</name>
+  </enumValues>
+  <enumValues uuid="e29ed83e-1e2a-4c7a-acdb-a6b500dd7c7c">
+    <name>Дата</name>
+  </enumValues>
+  <enumValues uuid="05405802-26f7-4534-bd33-7af0fe8d91f3">
+    <name>Булево</name>
+  </enumValues>
+  <enumValues uuid="d64b16ec-67fd-4742-8a8b-26a0e9c11d75">
+    <name>Пользователь</name>
+  </enumValues>
+  <enumValues uuid="5248ebb6-20a1-43f1-8d24-6450287e6964">
+    <name>Карточка</name>
+  </enumValues>
+  <enumValues uuid="dfd3cbc6-5556-4e1a-8b30-e322c79f8dbe">
+    <name>Список</name>
+  </enumValues>
+  <enumValues uuid="20a54690-273f-48a2-964b-17a698db11bc">
+    <name>Каталог</name>
+  </enumValues>
+  <enumValues uuid="6261017c-beda-4d08-8016-933912ac0136">
+    <name>Файл</name>
+  </enumValues>
+  <enumValues uuid="2aaef25e-5fc0-4a37-a908-b839a8e07c19">
+    <name>JSON</name>
+  </enumValues>
+  <enumValues uuid="e95297bb-7d31-486f-bbb5-d50d637c44bc">
+    <name>Неизвестный</name>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a710b0cc-25b8-4ea8-86ae-ba7ea27950f1">
+  <producedTypes>
+    <objectType typeId="99ed1d49-9670-4d60-bc94-463d024a2ca8" valueTypeId="e55136a6-bf33-4049-aa09-6dfeb15db819"/>
+    <managerType typeId="5045be1e-f9e3-44e8-9091-20ed88f39914" valueTypeId="e3edef39-0512-4271-8223-7124ae789412"/>
+  </producedTypes>
+  <name>КТ_ЗагрузкаИзKaiten</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка из Kaiten</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.КТ_ЗагрузкаИзKaiten.Form.Форма</defaultForm>
+  <forms uuid="2b8ed328-0525-47f0-a7b7-dd4492da814b">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загрузка из Kaiten</value>
+    </synonym>
+  </forms>
+</mdclass:DataProcessor>

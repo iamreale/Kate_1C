@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b0f1893a-9d93-4c56-afc5-924cf533aa31">
+  <producedTypes>
+    <objectType typeId="6a6f5313-a1cc-42a2-adf0-33ca81760a68" valueTypeId="80b405e4-391e-47a4-9f1d-69c49d4d51ec"/>
+    <managerType typeId="fd117dc4-2e25-4fc9-8457-89412dfe0a4c" valueTypeId="f179ce66-295e-4075-89fc-0e1d83c6ec65"/>
+  </producedTypes>
+  <name>КТ_Трудозатраты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Трудозатраты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.КТ_Трудозатраты.Form.Форма</defaultForm>
+  <mainDataCompositionSchema>Report.КТ_Трудозатраты.Template.ОсновнаяСхема</mainDataCompositionSchema>
+  <forms uuid="da9576e4-8801-4730-afdc-730c40ba0fac">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+  </forms>
+  <templates uuid="50ab58fe-55ac-415f-bac8-aac06017fac2">
+    <name>ОсновнаяСхема</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

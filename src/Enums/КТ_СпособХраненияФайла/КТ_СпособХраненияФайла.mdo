@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e8df8fb0-6755-4a39-bd89-81d80acf7e7f">
+  <producedTypes>
+    <refType typeId="54709cb6-5b7c-4b3d-a2ae-7fc24dd687e3" valueTypeId="29f2da3e-c51d-4f91-98b9-334f4e89cc57"/>
+    <listType typeId="b65e62cd-b50a-48c8-8375-19370e778734" valueTypeId="e62710c3-742e-4f89-953f-5d26c91c7897"/>
+    <managerType typeId="b98a4c68-c3cb-405d-a2f2-5577954bdbc9" valueTypeId="ef084b97-ea38-4693-9fc0-ec8575c14f18"/>
+  </producedTypes>
+  <name>КТ_СпособХраненияФайла</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способ хранения файла</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="4ad373e2-a33e-4ae9-adba-41e306a3efed">
+    <name>ВнутриИнформационнойБазы</name>
+  </enumValues>
+  <enumValues uuid="d5dd3217-cfa6-46dd-a102-62c9eb366633">
+    <name>ВоВнешнемКаталоге</name>
+  </enumValues>
+  <enumValues uuid="747e0d48-b22e-494f-8801-5cbe95ecbb27">
+    <name>ТолькоВнешняяСсылка</name>
+  </enumValues>
+  <enumValues uuid="20957ffd-89e2-4ac2-a757-5716eb2aa24f">
+    <name>НеЗагружен</name>
+  </enumValues>
+</mdclass:Enum>

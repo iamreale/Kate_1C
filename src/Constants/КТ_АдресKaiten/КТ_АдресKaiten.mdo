@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cf132cc0-8e2a-4ed9-99d4-177fafe080bb">
+  <producedTypes>
+    <managerType typeId="d8421e05-ab8e-48c6-a664-4f73076b73cf" valueTypeId="6bed4fd4-eb26-412e-81d4-cab8e9bfe4f8"/>
+    <valueManagerType typeId="c6be90a9-37fe-4a30-8e79-8a31b9e44f14" valueTypeId="8e230a3c-fb35-4ea5-af54-03dd4252093b"/>
+    <valueKeyType typeId="257fe343-602d-4601-b627-1a025e77b9b0" valueTypeId="2d4a61d5-1677-4e54-929c-886cc84478fe"/>
+  </producedTypes>
+  <name>КТ_АдресKaiten</name>
+  <synonym>
+    <key>ru</key>
+    <value>Адрес Kaiten</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>250</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

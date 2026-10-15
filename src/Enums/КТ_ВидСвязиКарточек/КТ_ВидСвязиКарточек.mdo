@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9c20046a-d266-457d-9fa5-a8bd44152c33">
+  <producedTypes>
+    <refType typeId="30900b26-386a-484f-8746-2970d545aab9" valueTypeId="3f1350c3-0406-4944-92ed-b325e8b5128e"/>
+    <listType typeId="9123ff71-6f3c-4d53-a485-b5c50f40eeb8" valueTypeId="8ca06bb0-d44a-400c-8663-56c766c23335"/>
+    <managerType typeId="52915d03-0060-449d-89e9-dc6025271851" valueTypeId="932069fa-71b0-4f9d-a9be-201fc9651c0f"/>
+  </producedTypes>
+  <name>КТ_ВидСвязиКарточек</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид связи карточек</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="e2ac1ae9-713b-4796-ace0-b64e9067208d">
+    <name>Родительская</name>
+  </enumValues>
+  <enumValues uuid="8bdaf989-715a-4978-8bf8-38a713418cfc">
+    <name>Дочерняя</name>
+  </enumValues>
+  <enumValues uuid="59f24462-f361-46bc-84cf-aa5768281e5e">
+    <name>Блокирует</name>
+  </enumValues>
+  <enumValues uuid="250ec177-92a4-4b02-836d-7661573b0ec1">
+    <name>Заблокирована</name>
+  </enumValues>
+  <enumValues uuid="57c5add9-babf-4269-9e5e-9dd7be776b2d">
+    <name>Связанная</name>
+  </enumValues>
+  <enumValues uuid="30c89cf9-8059-4402-b086-1c8cb534dfa8">
+    <name>Неизвестная</name>
+  </enumValues>
+</mdclass:Enum>

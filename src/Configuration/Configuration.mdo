@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0e936d32-46b2-4230-a68d-133fe186b090">
+  <name>Кайтен</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кайтен</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="4d95db8e-cda9-4752-b770-de24556d4e12"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="ca8d110d-2653-4f50-beee-c8d8607bbdaa"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="3e9735e0-471d-4ea6-a02f-933f39c62cb4"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="b8426d61-11a6-4ebf-8e3c-171bf989d68b"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="e9cab8c4-a7d2-45aa-9dd7-d114a7fbfafc"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="2c8ee299-c5f5-42de-913e-b05589de8adc"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="180e6c4f-52b5-4249-98b0-691ef34766dc"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultRoles>Role.КТ_АдминистраторАрхива</defaultRoles>
+  <defaultRoles>Role.ПолныеПрава</defaultRoles>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.27</compatibilityMode>
+  <languages uuid="96793c56-bc6f-4a12-9c5f-7a62a2dbaa93">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.ОбработкиИОтчеты</subsystems>
+  <subsystems>Subsystem.ПодсистемаВсе</subsystems>
+  <subsystems>Subsystem.ПодсистемаКонстанты</subsystems>
+  <subsystems>Subsystem.ПодсстемаСправочники</subsystems>
+  <subsystems>Subsystem.Регистры</subsystems>
+  <roles>Role.КТ_АдминистраторАрхива</roles>
+  <roles>Role.КТ_ТехническийПользовательЗагрузки</roles>
+  <roles>Role.КТ_ЧтениеАрхива</roles>
+  <roles>Role.ПолныеПрава</roles>
+  <commonModules>CommonModule.КТ_HTTPКлиентСервер</commonModules>
+  <commonModules>CommonModule.КТ_JSONСервер</commonModules>
+  <commonModules>CommonModule.КТ_ЗагрузкаKaitenСервер</commonModules>
+  <commonModules>CommonModule.КТ_ЗаписьОбъектовСервер</commonModules>
+  <commonModules>CommonModule.КТ_ЗаписьРегистровСервер</commonModules>
+  <commonModules>CommonModule.КТ_КонтрольПолнотыСервер</commonModules>
+  <commonModules>CommonModule.КТ_ОчередьЗагрузкиСервер</commonModules>
+  <commonModules>CommonModule.КТ_ПоискОбъектовСервер</commonModules>
+  <commonModules>CommonModule.КТ_ПротоколЗагрузкиСервер</commonModules>
+  <commonModules>CommonModule.КТ_РазметкаСервер</commonModules>
+  <commonModules>CommonModule.КТ_СжатиеХранилищСервер</commonModules>
+  <commonModules>CommonModule.КТ_СырыеДанныеСервер</commonModules>
+  <commonModules>CommonModule.КТ_ФайлыСервер</commonModules>
+  <scheduledJobs>ScheduledJob.КТ_ВыполнениеОчереди</scheduledJobs>
+  <scheduledJobs>ScheduledJob.КТ_ПроверкаЗависшихЗаданий</scheduledJobs>
+  <constants>Constant.КТ_АдресKaiten</constants>
+  <constants>Constant.КТ_ВерсияAPI</constants>
+  <constants>Constant.КТ_КаталогАрхива</constants>
+  <constants>Constant.КТ_КоличествоПовторовHTTP</constants>
+  <constants>Constant.КТ_ПаузаМеждуЗапросамиМС</constants>
+  <constants>Constant.КТ_РазмерСтраницыAPI</constants>
+  <constants>Constant.КТ_РежимТолькоЧтение</constants>
+  <constants>Constant.КТ_ТаймаутHTTPСекунд</constants>
+  <constants>Constant.КТ_ТокенKaiten</constants>
+  <constants>Constant.КТ_ХранитьФайлыВИБ</constants>
+  <constants>Constant.КТ_ЧасовойПоясАрхива</constants>
+  <catalogs>Catalog.КТ_ВариантыПользовательскихПолей</catalogs>
+  <catalogs>Catalog.КТ_Дорожки</catalogs>
+  <catalogs>Catalog.КТ_Доски</catalogs>
+  <catalogs>Catalog.КТ_Карточки</catalogs>
+  <catalogs>Catalog.КТ_Колонки</catalogs>
+  <catalogs>Catalog.КТ_Комментарии</catalogs>
+  <catalogs>Catalog.КТ_Компании</catalogs>
+  <catalogs>Catalog.КТ_Пользователи</catalogs>
+  <catalogs>Catalog.КТ_ПользовательскиеПоля</catalogs>
+  <catalogs>Catalog.КТ_Пространства</catalogs>
+  <catalogs>Catalog.КТ_РолиТрудозатрат</catalogs>
+  <catalogs>Catalog.КТ_СеансыЗагрузки</catalogs>
+  <catalogs>Catalog.КТ_СырыеОбъектыAPI</catalogs>
+  <catalogs>Catalog.КТ_Теги</catalogs>
+  <catalogs>Catalog.КТ_ТипыКарточек</catalogs>
+  <catalogs>Catalog.КТ_Файлы</catalogs>
+  <catalogs>Catalog.КТ_ЧекЛисты</catalogs>
+  <enums>Enum.КТ_ВидОперацииОчереди</enums>
+  <enums>Enum.КТ_ВидРодителяФайла</enums>
+  <enums>Enum.КТ_ВидСвязиКарточек</enums>
+  <enums>Enum.КТ_ВидСущностиKaiten</enums>
+  <enums>Enum.КТ_СостояниеЗагрузки</enums>
+  <enums>Enum.КТ_СпособХраненияФайла</enums>
+  <enums>Enum.КТ_ТипЗначенияПоля</enums>
+  <enums>Enum.КТ_ТипТекста</enums>
+  <reports>Report.КТ_ПолнотаАрхива</reports>
+  <reports>Report.КТ_РеестрКарточек</reports>
+  <reports>Report.КТ_Трудозатраты</reports>
+  <dataProcessors>DataProcessor.КТ_ЗагрузкаИзKaiten</dataProcessors>
+  <dataProcessors>DataProcessor.КТ_ОбработкаОчереди</dataProcessors>
+  <dataProcessors>DataProcessor.КТ_ПроверкаАрхива</dataProcessors>
+  <dataProcessors>DataProcessor.КТ_СжатиеХранилищ</dataProcessors>
+  <informationRegisters>InformationRegister.КТ_ЗначенияПользовательскихПолей</informationRegisters>
+  <informationRegisters>InformationRegister.КТ_ИсторияПеремещенийКарточек</informationRegisters>
+  <informationRegisters>InformationRegister.КТ_ОчередьЗагрузки</informationRegisters>
+  <informationRegisters>InformationRegister.КТ_ПротоколЗагрузки</informationRegisters>
+  <informationRegisters>InformationRegister.КТ_ПунктыЧекЛистов</informationRegisters>
+  <informationRegisters>InformationRegister.КТ_СвязиКарточек</informationRegisters>
+  <informationRegisters>InformationRegister.КТ_СопоставлениеВнешнихИдентификаторов</informationRegisters>
+  <informationRegisters>InformationRegister.КТ_ТегиКарточек</informationRegisters>
+  <informationRegisters>InformationRegister.КТ_ТрудозатратыКарточек</informationRegisters>
+  <informationRegisters>InformationRegister.КТ_УчастникиКарточек</informationRegisters>
+</mdclass:Configuration>

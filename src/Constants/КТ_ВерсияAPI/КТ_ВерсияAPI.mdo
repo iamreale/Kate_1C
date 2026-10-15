@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1ffbeacc-5261-4a23-a0a7-2ad7201691e7">
+  <producedTypes>
+    <managerType typeId="e199d910-46f7-4511-b310-a0da7cd89f04" valueTypeId="216298d2-6a10-45a8-b659-15bf1ebe3566"/>
+    <valueManagerType typeId="5a34bb1a-2ad2-44ea-9b0a-4077f9ea0c6a" valueTypeId="6b07e240-8023-44b6-95ae-504f00e412bc"/>
+    <valueKeyType typeId="50f47b3d-6ed3-4b18-80aa-47bd3fd0b82d" valueTypeId="f90781b8-0876-42ad-a269-38d3bd4573f9"/>
+  </producedTypes>
+  <name>КТ_ВерсияAPI</name>
+  <synonym>
+    <key>ru</key>
+    <value>Версия API</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>20</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aa6701fc-e9cf-45f1-a1c7-8a72d0e9621e">
+  <producedTypes>
+    <selectionType typeId="6667f1e6-ebc7-4aae-beb0-5a4ccdcff2f3" valueTypeId="79176424-336e-4030-9053-55a84615c157"/>
+    <listType typeId="6b54247a-8b68-4ee2-900b-fb8d55744911" valueTypeId="432a22c2-b15a-40eb-b156-ffa652b1f5a3"/>
+    <managerType typeId="b990b62a-f6f3-49c3-b7e7-e18068a18b36" valueTypeId="ffcc8eaa-e79c-4989-923a-977c51ba4646"/>
+    <recordSetType typeId="f8407c23-6ec3-4667-b962-6dea8aa21496" valueTypeId="442cc934-1e4b-4134-b412-ffaafa0d2703"/>
+    <recordKeyType typeId="c907c89c-ec8f-4e8d-96a0-4a5c7219d8d3" valueTypeId="75f7bd74-dd93-48c0-b9c9-da6b0122eb83"/>
+    <recordType typeId="64c1195b-a6f6-4410-ab49-964f1b6f176e" valueTypeId="ad19ac95-690e-45c6-abc1-7e2c595ab580"/>
+    <recordManagerType typeId="d1bc41ac-7dd1-452f-9a67-cc3ad337c339" valueTypeId="1bcea555-46ac-47b7-a5b1-02db08d54c57"/>
+  </producedTypes>
+  <name>КТ_ЗначенияПользовательскихПолей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Значения пользовательских полей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Значение пользовательского поля</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Значения пользовательских полей</value>
+  </listPresentation>
+  <resources uuid="cd1d9d33-6c81-4e0e-8710-91c933e16cae">
+    <name>ЗначениеСтрока</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="93544a1d-cfb4-480b-a16f-57836b49c3df">
+    <name>ЗначениеЧисло</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="6f181411-cbb3-422c-a6eb-de9bcbd11b0f">
+    <name>ЗначениеДата</name>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="c61fed8c-5440-4fd2-900d-b4b7b938942a">
+    <name>ЗначениеБулево</name>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="614f1f16-c842-430b-a711-d3e97c68cd21">
+    <name>ЗначениеВариант</name>
+    <type>
+      <types>CatalogRef.КТ_ВариантыПользовательскихПолей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="7d25035c-a621-4fee-b61d-444f1aab5d7c">
+    <name>Пользователь</name>
+    <type>
+      <types>CatalogRef.КТ_Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="01bc6397-a401-4e68-8499-115d3d3fbe36">
+    <name>СыройJSON</name>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="2bede7f5-9ab0-4102-a61e-2e67c7cabaf2">
+    <name>ДатаПоследнейЗагрузки</name>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="57cafefc-4080-483c-81e7-8b85550ca86e">
+    <name>СеансЗагрузки</name>
+    <type>
+      <types>CatalogRef.КТ_СеансыЗагрузки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="b0723d92-9a34-4c4c-a2c4-546301fc186e">
+    <name>Карточка</name>
+    <type>
+      <types>CatalogRef.КТ_Карточки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="3f2d906d-41e9-436c-a76e-e718b223699b">
+    <name>Поле</name>
+    <type>
+      <types>CatalogRef.КТ_ПользовательскиеПоля</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

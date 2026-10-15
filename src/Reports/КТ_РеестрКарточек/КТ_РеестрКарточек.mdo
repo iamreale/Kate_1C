@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4f004700-dcdb-474b-a0cc-c50d5b8feebf">
+  <producedTypes>
+    <objectType typeId="bd484e6c-6fb7-4abc-923a-a16ab78e8e12" valueTypeId="dbff2986-fcf9-4421-905d-11474f3d5f68"/>
+    <managerType typeId="ba299128-101a-4603-a12f-86b992da098b" valueTypeId="eed73e45-c1e9-47b6-b1dd-7d7498a2ebff"/>
+  </producedTypes>
+  <name>КТ_РеестрКарточек</name>
+  <synonym>
+    <key>ru</key>
+    <value>Реестр карточек</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:Report>

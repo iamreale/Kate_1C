@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0d65d350-9986-432b-adb1-4bc34a61d823">
+  <producedTypes>
+    <managerType typeId="10b9d4f6-1895-4772-88f1-523a12730278" valueTypeId="afe518d0-ac7a-4f7b-824b-f9565c6b581b"/>
+    <valueManagerType typeId="b364b900-d4e4-4163-a9fe-ce8353ec469f" valueTypeId="af16fc03-12f6-40d7-84d1-9cdcd3a1419e"/>
+    <valueKeyType typeId="d408621a-4224-481b-ae33-3977fa815984" valueTypeId="88530e78-876a-4697-b061-ad11a0ccf4d5"/>
+  </producedTypes>
+  <name>КТ_КаталогАрхива</name>
+  <synonym>
+    <key>ru</key>
+    <value>Каталог архива</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>500</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

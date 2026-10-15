@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1352fd5d-da71-4633-809c-82cb7781d885">
+  <producedTypes>
+    <managerType typeId="a91202ac-024f-4373-beaa-1c1e449e4165" valueTypeId="5f139b20-39a2-4c48-b10f-9cce7563cf09"/>
+    <valueManagerType typeId="2b8371ce-da5c-41ee-b988-342c69d79005" valueTypeId="bb59188c-1dc6-4df4-acdc-d27fc88ec151"/>
+    <valueKeyType typeId="273d7526-b67d-41dc-a32b-ae833c550578" valueTypeId="faa20066-3664-458a-beac-97287f650a98"/>
+  </producedTypes>
+  <name>КТ_РазмерСтраницыAPI</name>
+  <synonym>
+    <key>ru</key>
+    <value>Размер страницы API</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>3</precision>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

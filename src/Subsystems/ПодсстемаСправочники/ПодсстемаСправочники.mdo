@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aaa4aaf1-8d2e-4c41-9f75-e10835eed780">
+  <name>ПодсстемаСправочники</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочники</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.КТ_ВариантыПользовательскихПолей</content>
+  <content>Catalog.КТ_Дорожки</content>
+  <content>Catalog.КТ_Доски</content>
+  <content>Catalog.КТ_Карточки</content>
+  <content>Catalog.КТ_Колонки</content>
+  <content>Catalog.КТ_Комментарии</content>
+  <content>Catalog.КТ_Компании</content>
+  <content>Catalog.КТ_Пользователи</content>
+  <content>Catalog.КТ_ПользовательскиеПоля</content>
+  <content>Catalog.КТ_Пространства</content>
+  <content>Catalog.КТ_РолиТрудозатрат</content>
+  <content>Catalog.КТ_СеансыЗагрузки</content>
+  <content>Catalog.КТ_СырыеОбъектыAPI</content>
+  <content>Catalog.КТ_Теги</content>
+  <content>Catalog.КТ_Файлы</content>
+  <content>Catalog.КТ_ТипыКарточек</content>
+  <content>Catalog.КТ_ЧекЛисты</content>
+</mdclass:Subsystem>

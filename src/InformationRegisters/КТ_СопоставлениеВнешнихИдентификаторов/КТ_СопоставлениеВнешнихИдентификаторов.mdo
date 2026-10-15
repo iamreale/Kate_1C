@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c28a267e-5f99-4a29-8bd4-b860ab3c68f4">
+  <producedTypes>
+    <selectionType typeId="3c02003f-763c-4cd3-a21e-90d397794fe9" valueTypeId="f01a69fd-4171-45e8-9c57-214551ddaf1f"/>
+    <listType typeId="8b8dd570-8e27-46f6-b527-4d124e406ebb" valueTypeId="221cda56-d001-4fac-81eb-f76607cf5abc"/>
+    <managerType typeId="35bcd764-fda8-42df-b000-2ad3dd975f4d" valueTypeId="e47b5ec4-601f-4839-8815-60164596ffde"/>
+    <recordSetType typeId="32bf6023-24a4-49c8-a51f-98044cf3c8de" valueTypeId="16e36bca-fe15-4135-b5d1-1ed30edadbea"/>
+    <recordKeyType typeId="0bf28712-f7e3-4a2f-a4f6-d428e572f9c1" valueTypeId="ab7c73e5-b01f-417e-b1cf-602a93ccad11"/>
+    <recordType typeId="0c5d9707-3033-4701-961e-c5a44385fe16" valueTypeId="47ccde21-5708-4361-a308-47601a3ffeec"/>
+    <recordManagerType typeId="77110b39-922e-4aac-95cf-2c838dd0ebd2" valueTypeId="ef87d184-1736-4d19-a405-b4110f424ae7"/>
+  </producedTypes>
+  <name>КТ_СопоставлениеВнешнихИдентификаторов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сопоставление внешних идентификаторов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Сопоставление идентификатора</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Сопоставление внешних идентификаторов</value>
+  </listPresentation>
+  <resources uuid="bbf774e1-1555-4967-8f62-2947f488dcd2">
+    <name>СсылкаАрхива</name>
+    <type>
+      <types>CatalogRef.КТ_Компании</types>
+      <types>CatalogRef.КТ_Пользователи</types>
+      <types>CatalogRef.КТ_Пространства</types>
+      <types>CatalogRef.КТ_Доски</types>
+      <types>CatalogRef.КТ_Колонки</types>
+      <types>CatalogRef.КТ_Дорожки</types>
+      <types>CatalogRef.КТ_ТипыКарточек</types>
+      <types>CatalogRef.КТ_Теги</types>
+      <types>CatalogRef.КТ_РолиТрудозатрат</types>
+      <types>CatalogRef.КТ_ПользовательскиеПоля</types>
+      <types>CatalogRef.КТ_ВариантыПользовательскихПолей</types>
+      <types>CatalogRef.КТ_Карточки</types>
+      <types>CatalogRef.КТ_Комментарии</types>
+      <types>CatalogRef.КТ_ЧекЛисты</types>
+      <types>CatalogRef.КТ_Файлы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b7cb3d2c-a536-44ff-84a1-702aff1b50ae">
+    <name>ДатаСопоставления</name>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="0326d5da-3cbf-47a1-af42-2a7ec8378481">
+    <name>Источник</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="6650e757-0302-4f25-86ed-786132df1fef">
+    <name>ВидСущности</name>
+    <type>
+      <types>EnumRef.КТ_ВидСущностиKaiten</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="38d08392-1301-4999-992b-1dc75d8f2a63">
+    <name>ИдентификаторKaiten</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

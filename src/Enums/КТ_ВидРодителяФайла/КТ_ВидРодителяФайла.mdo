@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="848bf0fc-2f5e-430a-9a89-0930d66cad89">
+  <producedTypes>
+    <refType typeId="fb32a7f2-0c0e-4091-895a-a08b7d910945" valueTypeId="b3e373ed-dd8c-413f-9f33-82234df1d3a4"/>
+    <listType typeId="06c3386a-51e6-435c-a05d-3ec04c3146b9" valueTypeId="45fdae4a-b90c-4b75-85bf-c4227c551c8a"/>
+    <managerType typeId="a24dbdc5-6397-4ce1-a5af-13aafd697bfc" valueTypeId="557bf443-1616-40e0-b417-535fbea2f979"/>
+  </producedTypes>
+  <name>КТ_ВидРодителяФайла</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид родителя файла</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="4101c7ab-db1c-47ea-9af2-2e0d282cbd89">
+    <name>Карточка</name>
+  </enumValues>
+  <enumValues uuid="aa8a30de-595f-4dfb-80ad-4beff30b1856">
+    <name>Комментарий</name>
+  </enumValues>
+  <enumValues uuid="a9e40e46-8e3d-40df-961b-17a613c4d9c9">
+    <name>ПользовательскоеПоле</name>
+  </enumValues>
+  <enumValues uuid="5424985b-756b-4219-9c84-41abc8e44eda">
+    <name>Документ</name>
+  </enumValues>
+  <enumValues uuid="c425647c-c034-4134-ac24-3c8c8dd69dee">
+    <name>НеОпределен</name>
+  </enumValues>
+</mdclass:Enum>

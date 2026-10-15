@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5b14a93b-63b8-41fe-9dc3-28359d51a434">
+  <name>Регистры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистры</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>InformationRegister.КТ_ЗначенияПользовательскихПолей</content>
+  <content>InformationRegister.КТ_ИсторияПеремещенийКарточек</content>
+  <content>InformationRegister.КТ_ОчередьЗагрузки</content>
+  <content>InformationRegister.КТ_ПротоколЗагрузки</content>
+  <content>InformationRegister.КТ_ПунктыЧекЛистов</content>
+  <content>InformationRegister.КТ_СвязиКарточек</content>
+  <content>InformationRegister.КТ_СопоставлениеВнешнихИдентификаторов</content>
+  <content>InformationRegister.КТ_ТегиКарточек</content>
+  <content>InformationRegister.КТ_ТрудозатратыКарточек</content>
+  <content>InformationRegister.КТ_УчастникиКарточек</content>
+</mdclass:Subsystem>

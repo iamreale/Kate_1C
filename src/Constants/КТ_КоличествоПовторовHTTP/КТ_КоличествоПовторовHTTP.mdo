@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="48aae019-84ff-48de-b2c1-f8830bbcbf35">
+  <producedTypes>
+    <managerType typeId="460912de-e688-4e32-aef6-86da195e9fa9" valueTypeId="5bc241bd-aeb3-4e38-88b5-ec32ef51a032"/>
+    <valueManagerType typeId="2ef1d711-6179-4cf3-b71e-39ebc4a5e6b7" valueTypeId="7dfdfebe-cbae-4484-b152-7bc1f030bb86"/>
+    <valueKeyType typeId="61778629-4183-4a38-8df8-954d204cee6f" valueTypeId="7f801c46-6a53-43f1-80d2-0eb80de09abc"/>
+  </producedTypes>
+  <name>КТ_КоличествоПовторовHTTP</name>
+  <synonym>
+    <key>ru</key>
+    <value>Количество повторов HTTP</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>2</precision>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

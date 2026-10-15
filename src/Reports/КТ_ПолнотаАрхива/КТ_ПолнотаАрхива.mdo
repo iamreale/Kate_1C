@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0d49fea8-6b88-4954-b243-1e987401476c">
+  <producedTypes>
+    <objectType typeId="2579cc1e-90d5-4b10-800d-85e89d3158d3" valueTypeId="d6059e79-21e2-471b-9720-d687351c13b7"/>
+    <managerType typeId="bb39aa90-fc95-4846-9a65-fa5e051ee28e" valueTypeId="0e84596c-1195-4d2d-8d6e-3f0b58432635"/>
+  </producedTypes>
+  <name>КТ_ПолнотаАрхива</name>
+  <synonym>
+    <key>ru</key>
+    <value>Полнота архива</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:Report>

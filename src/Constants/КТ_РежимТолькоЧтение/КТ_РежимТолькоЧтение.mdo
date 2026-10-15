@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f9298502-9a5d-409b-a45b-273236eb50a6">
+  <producedTypes>
+    <managerType typeId="61a0cc48-e436-4425-b3ec-df190df69d17" valueTypeId="ca757f60-1dd3-4a74-84fb-88defccf5831"/>
+    <valueManagerType typeId="dc44487f-7439-41c3-b6fe-096aa228f615" valueTypeId="2bb6506e-bb64-4a7c-ac3e-136f454516b5"/>
+    <valueKeyType typeId="98b11981-447d-4707-9409-d914e5efbd14" valueTypeId="89f4ee9b-007d-4f5b-a9ef-4d56a5033acf"/>
+  </producedTypes>
+  <name>КТ_РежимТолькоЧтение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Режим только чтение</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e96c3abf-bfc0-4171-b374-7cb2a01df2f7">
+  <producedTypes>
+    <selectionType typeId="b5a70f81-5af7-4093-9bc6-1b053f0893c2" valueTypeId="2fb82ce6-15d0-4713-b51a-86e54677f084"/>
+    <listType typeId="d404f23c-b670-42f4-adcb-49ecd32bd386" valueTypeId="e27ae34c-a03c-4eeb-9594-6fca167165b3"/>
+    <managerType typeId="9293cebf-93e9-4106-9390-3a923b4636f7" valueTypeId="05381e69-0433-47c2-8d75-39bc23f3f6a7"/>
+    <recordSetType typeId="02acb290-12aa-44d2-9678-94cf8d14e609" valueTypeId="74475bae-af30-4309-bb4e-29defa353779"/>
+    <recordKeyType typeId="38c04785-81c9-481e-a2f2-2a0f1572517a" valueTypeId="57f699ff-3c05-4f42-a053-ff0cef497394"/>
+    <recordType typeId="4e76e676-6c1d-435f-9c00-475fa5984b11" valueTypeId="e1dcc886-5e59-45fe-ba93-39bbc249be52"/>
+    <recordManagerType typeId="aa785ae7-1ea8-4324-91b0-c105f59c7bbb" valueTypeId="4e452124-03c8-45ed-82d4-3c1fb559bc20"/>
+  </producedTypes>
+  <name>КТ_ТегиКарточек</name>
+  <synonym>
+    <key>ru</key>
+    <value>Теги карточек</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Тег карточки</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Теги карточек</value>
+  </listPresentation>
+  <resources uuid="985c5c3b-4c39-4cf9-99c4-630d0d7ebd2e">
+    <name>ДатаПоследнейЗагрузки</name>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="7c9da8f1-fc9c-4378-8c70-5be8181df57d">
+    <name>СеансЗагрузки</name>
+    <type>
+      <types>CatalogRef.КТ_СеансыЗагрузки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="81787db6-2291-4551-a78e-08ecea6769a6">
+    <name>Карточка</name>
+    <type>
+      <types>CatalogRef.КТ_Карточки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="ee98e630-bbcb-4a87-994a-98a8a7dff73f">
+    <name>Тег</name>
+    <type>
+      <types>CatalogRef.КТ_Теги</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

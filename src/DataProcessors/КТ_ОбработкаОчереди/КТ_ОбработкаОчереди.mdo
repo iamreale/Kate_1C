@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="88de65e4-9838-47d0-9555-442fa7d28f9d">
+  <producedTypes>
+    <objectType typeId="ea69e3e1-4f0b-418b-8d4b-1b3c787b53f5" valueTypeId="879a2015-0122-4489-a4b2-499762214b42"/>
+    <managerType typeId="3802132e-7b84-4503-8f03-0e12e8fa21b1" valueTypeId="a4fde2da-8b40-4933-b3d0-1b4f6fcb1967"/>
+  </producedTypes>
+  <name>КТ_ОбработкаОчереди</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработка очереди загрузки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.КТ_ОбработкаОчереди.Form.Форма</defaultForm>
+  <forms uuid="6f3578c2-9c4d-4925-a62b-1f2bc41273e0">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+  </forms>
+</mdclass:DataProcessor>

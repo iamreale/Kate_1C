@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="743e55d4-02d3-45ff-8c72-9c9444a43258">
+  <producedTypes>
+    <refType typeId="df1cd117-81d1-4367-b8d7-552b19b5d049" valueTypeId="91128aa7-32c8-4dfe-b53e-9a1f69ce3cf7"/>
+    <listType typeId="bfde61fe-559f-4c02-b6be-f0808b667c08" valueTypeId="03a81bd3-0a2f-4d1d-8031-55d123fd8926"/>
+    <managerType typeId="e4b2362f-d7ba-49d4-9271-527cb628fbff" valueTypeId="6e88a150-9dd7-4b5d-ad22-f7fae58353c6"/>
+  </producedTypes>
+  <name>КТ_СостояниеЗагрузки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояние загрузки</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="86a04afc-4f98-4bf2-b121-3bf33ed051a9">
+    <name>Ожидает</name>
+  </enumValues>
+  <enumValues uuid="b7fd3250-6543-4630-b4d8-1b7835d0d5ca">
+    <name>Выполняется</name>
+  </enumValues>
+  <enumValues uuid="3a6ad314-5d09-47df-822e-d432618e63cd">
+    <name>Загружено</name>
+  </enumValues>
+  <enumValues uuid="0641ecef-49f4-4c6c-a5e8-4a4856b9c4b0">
+    <name>ЗагруженоСПредупреждениями</name>
+  </enumValues>
+  <enumValues uuid="daf34e71-f974-4a36-afa5-85f31aba1f9c">
+    <name>Ошибка</name>
+  </enumValues>
+  <enumValues uuid="895e497c-b7f3-4819-b285-c5106e316bf9">
+    <name>Пропущено</name>
+  </enumValues>
+  <enumValues uuid="3c3b0305-e928-40ac-b96f-331906883f2f">
+    <name>НедоступноПоПравам</name>
+  </enumValues>
+</mdclass:Enum>

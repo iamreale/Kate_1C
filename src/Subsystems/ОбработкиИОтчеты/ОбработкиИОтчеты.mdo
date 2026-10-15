@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="105a2dc5-a499-4d25-8a31-f30b514ad175">
+  <name>ОбработкиИОтчеты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработки и отчеты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Report.КТ_ПолнотаАрхива</content>
+  <content>Report.КТ_РеестрКарточек</content>
+  <content>Report.КТ_Трудозатраты</content>
+  <content>DataProcessor.КТ_ЗагрузкаИзKaiten</content>
+  <content>DataProcessor.КТ_ОбработкаОчереди</content>
+  <content>DataProcessor.КТ_ПроверкаАрхива</content>
+  <content>DataProcessor.КТ_СжатиеХранилищ</content>
+</mdclass:Subsystem>

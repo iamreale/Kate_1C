@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Карточка</dataPath>
+			<field>Карточка</field>
+			<title xsi:type="xs:string">Карточка</title>
+			<valueType>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:CatalogRef.КТ_Карточки</v8:Type>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КарточкаНаименование</dataPath>
+			<field>КарточкаНаименование</field>
+			<title xsi:type="xs:string">Наименование карточки</title>
+			<valueType>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>150</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НомерКарточки</dataPath>
+			<field>НомерКарточки</field>
+			<title xsi:type="xs:string">Номер карточки</title>
+			<valueType>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>19</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Пространство</dataPath>
+			<field>Пространство</field>
+			<title xsi:type="xs:string">Пространство</title>
+			<valueType>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:CatalogRef.КТ_Пространства</v8:Type>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Доска</dataPath>
+			<field>Доска</field>
+			<title xsi:type="xs:string">Доска</title>
+			<valueType>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:CatalogRef.КТ_Доски</v8:Type>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТипКарточки</dataPath>
+			<field>ТипКарточки</field>
+			<title xsi:type="xs:string">Тип карточки</title>
+			<valueType>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:CatalogRef.КТ_ТипыКарточек</v8:Type>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КарточкаАрхивирована</dataPath>
+			<field>КарточкаАрхивирована</field>
+			<title xsi:type="xs:string">Карточка архивирована</title>
+			<valueType>
+				<v8:Type>xs:boolean</v8:Type>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ИдентификаторKaiten</dataPath>
+			<field>ИдентификаторKaiten</field>
+			<title xsi:type="xs:string">Идентификатор Kaiten</title>
+			<valueType>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>19</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Пользователь</dataPath>
+			<field>Пользователь</field>
+			<title xsi:type="xs:string">Пользователь</title>
+			<valueType>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:CatalogRef.КТ_Пользователи</v8:Type>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПользовательПолноеИмя</dataPath>
+			<field>ПользовательПолноеИмя</field>
+			<title xsi:type="xs:string">Полное имя пользователя</title>
+			<valueType>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>250</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Роль</dataPath>
+			<field>Роль</field>
+			<title xsi:type="xs:string">Роль</title>
+			<valueType>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:CatalogRef.КТ_РолиТрудозатрат</v8:Type>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>РольНаименование</dataPath>
+			<field>РольНаименование</field>
+			<title xsi:type="xs:string">Наименование роли</title>
+			<valueType>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>150</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаНачала</dataPath>
+			<field>ДатаНачала</field>
+			<title xsi:type="xs:string">Дата начала</title>
+			<valueType>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>DateTime</v8:DateFractions>
+				</v8:DateQualifiers>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаОкончания</dataPath>
+			<field>ДатаОкончания</field>
+			<title xsi:type="xs:string">Дата окончания</title>
+			<valueType>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>DateTime</v8:DateFractions>
+				</v8:DateQualifiers>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДлительностьМинут</dataPath>
+			<field>ДлительностьМинут</field>
+			<title xsi:type="xs:string">Длительность, минут</title>
+			<valueType>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>15</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Комментарий</dataPath>
+			<field>Комментарий</field>
+			<title xsi:type="xs:string">Комментарий</title>
+			<valueType>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>100</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</valueType>
+		</field>
+		<query>ВЫБРАТЬ
+	Трудозатраты.Карточка КАК Карточка,
+	Карточки.Наименование КАК КарточкаНаименование,
+	Карточки.НомерКарточки КАК НомерКарточки,
+	Карточки.Пространство КАК Пространство,
+	Карточки.Доска КАК Доска,
+	Карточки.ТипКарточки КАК ТипКарточки,
+	Карточки.Архивирована КАК КарточкаАрхивирована,
+	Трудозатраты.ИдентификаторKaiten КАК ИдентификаторKaiten,
+	Трудозатраты.Пользователь КАК Пользователь,
+	Пользователи.ПолноеИмя КАК ПользовательПолноеИмя,
+	Трудозатраты.Роль КАК Роль,
+	Роли.НаименованиеKaiten КАК РольНаименование,
+	Трудозатраты.ДатаНачала КАК ДатаНачала,
+	Трудозатраты.ДатаОкончания КАК ДатаОкончания,
+	Трудозатраты.ДлительностьМинут КАК ДлительностьМинут,
+	Трудозатраты.Комментарий КАК Комментарий
+ИЗ
+	РегистрСведений.КТ_ТрудозатратыКарточек КАК Трудозатраты
+	ЛЕВОЕ СОЕДИНЕНИЕ Справочник.КТ_Карточки КАК Карточки
+		ПО Трудозатраты.Карточка = Карточки.Ссылка
+	ЛЕВОЕ СОЕДИНЕНИЕ Справочник.КТ_Пользователи КАК Пользователи
+		ПО Трудозатраты.Пользователь = Пользователи.Ссылка
+	ЛЕВОЕ СОЕДИНЕНИЕ Справочник.КТ_РолиТрудозатрат КАК Роли
+		ПО Трудозатраты.Роль = Роли.Ссылка</query>
+	</dataSet>
+	<defaultSettings xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+		<dcsset:selection>
+			<dcsset:item xsi:type="dcsset:SelectedItemField">
+				<dcsset:field>Карточка</dcsset:field>
+			</dcsset:item>
+		</dcsset:selection>
+		<dcsset:item xsi:type="dcsset:StructureItemGroup">
+			<dcsset:groupItems>
+				<dcsset:item xsi:type="dcsset:GroupItemField">
+					<dcsset:field>Карточка</dcsset:field>
+					<dcsset:groupType>Items</dcsset:groupType>
+					<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+				</dcsset:item>
+			</dcsset:groupItems>
+		</dcsset:item>
+	</defaultSettings>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="xs:string">Трудозатраты по карточкам</dcsset:presentation>
+		<dcsset:settings xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Карточка</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>Карточка</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+					</dcsset:item>
+				</dcsset:groupItems>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

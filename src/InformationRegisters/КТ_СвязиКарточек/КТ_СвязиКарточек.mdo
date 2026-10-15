@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="304fee8e-0bf9-4648-beb0-0d1f5fe76182">
+  <producedTypes>
+    <selectionType typeId="3d54966a-6921-4ebe-a8c1-7ac75a9f27fa" valueTypeId="d31c0751-a4f6-4ade-9e16-e8367b14e9dc"/>
+    <listType typeId="27d36eb9-0160-427a-aa1e-666ebc902ed9" valueTypeId="307f14ab-680f-4c79-b2c5-136a8a9065bd"/>
+    <managerType typeId="64117b1a-101c-4c5e-82bd-93f31eab87c0" valueTypeId="41041e1d-a341-45ae-9e98-04c8b99bd4f0"/>
+    <recordSetType typeId="b5763031-5065-42aa-b0d0-3f2f4b51090b" valueTypeId="ee3b6ca6-19df-4519-91b0-c66457e9bf32"/>
+    <recordKeyType typeId="9605cf67-22ab-4f12-80f4-b327e49724fd" valueTypeId="5a346ee2-0f49-4930-a5e4-f33b4286c960"/>
+    <recordType typeId="c79e7ce1-5e29-48d5-8277-2e481aaa9627" valueTypeId="6a2c419e-ff99-409d-8f24-5ad3994158e8"/>
+    <recordManagerType typeId="ee1a3354-b6f9-4d32-a9b6-5c2831671a7a" valueTypeId="6a3e3244-16a1-4389-86c0-dd22a0778d70"/>
+  </producedTypes>
+  <name>КТ_СвязиКарточек</name>
+  <synonym>
+    <key>ru</key>
+    <value>Связи карточек</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Связь карточек</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Связи карточек</value>
+  </listPresentation>
+  <resources uuid="b09973d6-6646-4f93-b0e4-304cf5a93fbc">
+    <name>ВидСвязи</name>
+    <type>
+      <types>EnumRef.КТ_ВидСвязиКарточек</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="2ba27ba3-19b4-4ba0-a81f-3e501d3fde21">
+    <name>Карточка</name>
+    <type>
+      <types>CatalogRef.КТ_Карточки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="d8fe3499-f0d7-4396-aa82-935ad2acc409">
+    <name>СвязаннаяКарточка</name>
+    <type>
+      <types>CatalogRef.КТ_Карточки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

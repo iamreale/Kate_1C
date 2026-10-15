@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3fca437d-355d-451f-a6fd-2259354e5c25">
+  <producedTypes>
+    <refType typeId="4ffca73c-4f52-4202-9895-0323009f42f7" valueTypeId="53ba64c6-ffd1-47ec-aff1-44522d8f69e7"/>
+    <listType typeId="1c5c3854-09ee-4d23-b4ee-960c78f07081" valueTypeId="8f62aa8b-db55-4d06-877a-5210152b1cdf"/>
+    <managerType typeId="d2ce8db4-8e63-4fc6-b41a-4e6f8efcfdc9" valueTypeId="2f14ac1f-7c42-40bc-867d-2f985ca001c4"/>
+  </producedTypes>
+  <name>КТ_ВидОперацииОчереди</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид операции очереди</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f092c395-b664-4f21-830d-bb0421aaf192">
+    <name>ПолучитьСписок</name>
+  </enumValues>
+  <enumValues uuid="8e6bc6c5-2b9c-4dc4-8835-1aba7728f1e3">
+    <name>ПолучитьОбъект</name>
+  </enumValues>
+  <enumValues uuid="7b4cff6e-6218-4c1c-be58-60f955ae6d70">
+    <name>ПолучитьДочерниеДанные</name>
+  </enumValues>
+  <enumValues uuid="b2ca07d7-45da-42de-9dae-bedaa4737851">
+    <name>СкачатьФайл</name>
+  </enumValues>
+  <enumValues uuid="9e94586a-7c44-4823-9cbe-6983dc91d6df">
+    <name>РазобратьJSON</name>
+  </enumValues>
+  <enumValues uuid="daaacc11-536e-4097-b253-00b2c3002fbe">
+    <name>ПроверитьОбъект</name>
+  </enumValues>
+</mdclass:Enum>

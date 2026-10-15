@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c0359da1-7d9b-4f62-849d-4c6540495701">
+  <producedTypes>
+    <objectType typeId="d7e05cb2-3597-4042-92f7-e99f5c650df5" valueTypeId="61f18911-518d-44fa-8554-12a50fb1062c"/>
+    <managerType typeId="76706f6f-3895-4f45-a087-2ca53552ce3a" valueTypeId="de67be29-22c1-4b29-8eb9-144d16cb07c9"/>
+  </producedTypes>
+  <name>КТ_ПроверкаАрхива</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверка архива</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:DataProcessor>

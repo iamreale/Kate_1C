@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="da9e5c53-9b35-404d-bf09-c4b9f462e24a">
+  <producedTypes>
+    <managerType typeId="4e93c106-124e-46c7-bd12-a53187d067f1" valueTypeId="f0534e19-b647-484c-bd7a-bbd997b5bad5"/>
+    <valueManagerType typeId="855f5ca4-faef-4724-b2cf-73b9ab72e335" valueTypeId="dd24b0ac-739d-43b4-b1e3-68938b20ac9a"/>
+    <valueKeyType typeId="51c01d23-dee2-44ca-84db-4c2e62bc3496" valueTypeId="2669f9d0-bb77-4c19-97fa-01b1a3c86497"/>
+  </producedTypes>
+  <name>КТ_ТокенKaiten</name>
+  <synonym>
+    <key>ru</key>
+    <value>Токен Kaiten</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>500</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d08c8599-f3ef-48f8-8f6b-fbba5698fe0e">
+  <name>ПодсистемаКонстанты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Константы</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Constant.КТ_АдресKaiten</content>
+  <content>Constant.КТ_ВерсияAPI</content>
+  <content>Constant.КТ_КаталогАрхива</content>
+  <content>Constant.КТ_КоличествоПовторовHTTP</content>
+  <content>Constant.КТ_ПаузаМеждуЗапросамиМС</content>
+  <content>Constant.КТ_РазмерСтраницыAPI</content>
+  <content>Constant.КТ_РежимТолькоЧтение</content>
+  <content>Constant.КТ_ТаймаутHTTPСекунд</content>
+  <content>Constant.КТ_ТокенKaiten</content>
+  <content>Constant.КТ_ХранитьФайлыВИБ</content>
+  <content>Constant.КТ_ЧасовойПоясАрхива</content>
+</mdclass:Subsystem>

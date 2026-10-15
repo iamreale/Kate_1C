@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7ed7f044-d2f8-4e70-bb8f-c053fd3ce362">
+  <producedTypes>
+    <selectionType typeId="991f7b4b-16a8-403f-b044-57e259d0993b" valueTypeId="c7bb53bf-b713-45da-ab0a-7363374e0a76"/>
+    <listType typeId="c51de382-7a70-4682-ab05-fdad5eb07ba0" valueTypeId="809d3053-36f1-4e57-929b-d02c8e2f9477"/>
+    <managerType typeId="bdca5ca8-e50b-44bd-b66b-0960a21c889a" valueTypeId="36b308f3-6ab3-4954-af22-1bf5d5476728"/>
+    <recordSetType typeId="2aa6aee4-e57f-4bec-9f5a-204b587bdd20" valueTypeId="1bb4870f-476a-4e81-961f-a12673bb318e"/>
+    <recordKeyType typeId="5721703b-1d7c-4081-b955-639c98a8d3ae" valueTypeId="ab67cb04-63b5-4f76-bd5c-61b13663fff8"/>
+    <recordType typeId="27303a65-754f-4c20-8495-1efc3307113f" valueTypeId="29e4d2dc-ad84-47b4-80bf-448c303e2732"/>
+    <recordManagerType typeId="1d97d696-1845-46c0-83ac-97af5e5f2d09" valueTypeId="b58c244b-6ef7-4f0d-ae86-e438a19c8afe"/>
+  </producedTypes>
+  <name>КТ_ПротоколЗагрузки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Протокол загрузки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.КТ_ПротоколЗагрузки.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Сообщение протокола</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Протокол загрузки</value>
+  </listPresentation>
+  <resources uuid="11245e6a-aac7-4982-bb5b-d5645047c5e5">
+    <name>ВидСущности</name>
+    <type>
+      <types>EnumRef.КТ_ВидСущностиKaiten</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="ef02515e-5dc5-497d-8614-7ef709145f41">
+    <name>Уровень</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="54fcad42-58b4-4827-a446-fe3f7c1dc3f3">
+    <name>Этап</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="c3362d65-5382-4352-9a27-97bd84a91d3f">
+    <name>Сообщение</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="d727f847-7c8d-475a-bd1e-11f13ca84d84">
+    <name>Детали</name>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="521eef02-8665-4fcc-b6b4-3ee9cce965c3">
+    <name>ДатаСобытия</name>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="a4775571-a6bf-4e18-9071-89e0158cd4c1">
+    <name>СеансЗагрузки</name>
+    <type>
+      <types>CatalogRef.КТ_СеансыЗагрузки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="dbf5e707-266c-4836-ad0b-807033557271">
+    <name>ИдентификаторKaiten</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="bc54c8cc-3b78-4f2c-a2ca-72c81beb2d5a">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Протокол загрузки</value>
+    </synonym>
+  </forms>
+</mdclass:InformationRegister>
